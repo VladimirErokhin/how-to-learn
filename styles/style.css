@@ -10,16 +10,66 @@
 }
 
 .header {
-  height: 100vh;
-  min-height: 600px;
+  height:100vh;
+  display: flex;
+  position: relative;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  min-height: 600px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+.logo{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  height: 32px;
+  width: 183px;
+  background-image: url("../images/logo_place_footer.svg");
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+.title{
+  margin: auto 64px;
+  width: 730px;
+  height: auto;
+  z-index: 100;
+  font-size: 102px;
+  font-weight:bold;
+  line-height: 96px;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  z-index: 100;
+  font-size: 18px;
+  font-weight:normal;
+  line-height: 25px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-height: 608px;
+  max-width: 765px;
+  z-index: 90;
+}
+
+.square-pic {
+  position: absolute;
+  right: 0;
+  top: 64px;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  z-index: 80;
 }
 
 /* и элемента с модификатором вида ключ-значение */
