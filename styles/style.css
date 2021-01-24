@@ -79,3 +79,43 @@
   margin-right: 0;
   margin-top: 80px;
 }
+.description{
+  display: flex;
+  margin: 100px 0;
+}
+
+.two-colums{
+  display: flex;
+  width: 80%;
+  min-width: 784px;
+  margin: 0 auto;
+}
+
+.main-text{
+  display: flex;
+  flex-direction:column;
+}
+
+.brief{
+  width: 175px;
+  line-height: 1.2em;
+  font-size: 18px;
+  color: #2f80ed;
+  padding-right: 50px;
+
+}
+
+.text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-top: 0;
+  line-height: 34px;
+  font-size: 24px;
+}
+.text-bold{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
