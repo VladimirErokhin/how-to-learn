@@ -78,7 +78,6 @@ li {
     font-size: 102px;
     font-weight: bold;
     line-height: 96px;
-    z-index: 100;
 }
 
 .header__subtitle {
@@ -230,8 +229,6 @@ li {
     right: 48px;
     line-height: 51px;
     font-size: 36px;
-    top: 50%;
-    right: 48px;
     text-decoration: none;
 }
 
@@ -299,8 +296,6 @@ li {
     line-height: 1.15em;
     margin: 0;
     color: #f2f2f2;
-    display: block;
-    position: relative;
 }
 
 .table__text_theme_dark {
