@@ -37,7 +37,7 @@ h5 {
 }
 
 .logo_place_header {
-    top: 30px;
+    top: 1px;
     position: absolute;
     display: block;
 }
@@ -48,7 +48,7 @@ h5 {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    z-index: 30;
+    z-index: 1;
 }
 
 .header__square-pic {
@@ -58,14 +58,14 @@ h5 {
     top: 64px;
     right: 0px;
     background-color: #2f80ed;
-    z-index: 20;
+    z-index: 0;
 }
 
 .header__title {
     margin: auto 0;
     width: 730px;
     height: auto;
-    z-index: 100;
+    z-index: 1;
     font-size: 102px;
     font-weight: bold;
     line-height: 96px;
@@ -84,6 +84,7 @@ h5 {
 
 .link {
     text-decoration: none;
+    color: #2f80ed;
 }
 
 .content {
@@ -246,7 +247,7 @@ h5 {
     text-align: center;
     padding-top: 90px;
     padding-bottom: 20px;
-    z-index: 1;
+    z-index: 0;
     line-height: 1.15em;
     font-size: 60px;
     font-weight: bold;
@@ -258,7 +259,7 @@ h5 {
     display: block;
     position: relative;
     text-align: center;
-    z-index: 1;
+    z-index: 0;
     line-height: 34px;
     font-size: 24px;
     color: #f2f2f2;
@@ -305,7 +306,7 @@ h5 {
     width: 877px;
     height: 877px;
     background-size: cover;
-    background-image: none;
+    background-image: url("../images/kaufman-triangle.svg");
     z-index: 0;
 }
 
