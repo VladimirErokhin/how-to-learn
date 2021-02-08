@@ -40,6 +40,7 @@ h5 {
     top: 1px;
     position: absolute;
     display: block;
+    top: 30px;
 }
 
 .header__main-illustration {
@@ -65,7 +66,7 @@ h5 {
     margin: auto 0;
     width: 730px;
     height: auto;
-    z-index: 1;
+    z-index: 10;
     font-size: 102px;
     font-weight: bold;
     line-height: 96px;
@@ -97,7 +98,7 @@ h5 {
     display: flex;
     margin: 100px auto 0 auto;
     width: 80%;
-    justify-content: left;
+    justify-content: space-between;
 }
 
 .two-columns__brief {
@@ -160,6 +161,9 @@ h5 {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .table__cell {
@@ -233,7 +237,7 @@ h5 {
     overflow: hidden;
 }
 
-.kaufman {
+.kaufman__body {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -247,7 +251,7 @@ h5 {
     text-align: center;
     padding-top: 90px;
     padding-bottom: 20px;
-    z-index: 0;
+    z-index: 1;
     line-height: 1.15em;
     font-size: 60px;
     font-weight: bold;
@@ -255,7 +259,7 @@ h5 {
     color: #f2f2f2;
 }
 
-.section-subtitle__text_theme_dark {
+.section-subtitle_theme_dark {
     display: block;
     position: relative;
     text-align: center;
@@ -273,6 +277,7 @@ h5 {
     color: #f2f2f2;
     width: 1100px;
     margin: 0 auto 90px auto;
+    padding: 0;
 }
 
 .table__cell_theme_dark {
@@ -311,11 +316,15 @@ h5 {
 }
 
 .footer {
-    display: flex;
-    background-color: #1f1f1f;
     margin: 0;
     width: 100%;
-    min-height: 350px;
+}
+
+.footer__body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    justify-content: space-between;
 }
 
 .footer__columns {
@@ -327,10 +336,12 @@ h5 {
 }
 
 .footer__column_content_copyright {
+    flex-direction: column;
     display: flex;
     position: relative;
     width: 711px;
     flex-basis: 711px;
+    justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -338,12 +349,13 @@ h5 {
     height: 35px;
 }
 
-.footer__autor {
+.footer__author {
+    display: flex;
     font-size: 18px;
     line-height: 25px;
     left: 0;
     bottom: 0;
-    position: absolute;
+    position: relative;
     margin: 18px 0;
 }
 
